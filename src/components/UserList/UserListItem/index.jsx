@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./UserListItem.module.css";
 import classNames from "classnames";
 import { MdDelete } from "react-icons/md";
+import styles from "./UserListItem.module.css";
 
 function UserListItem({
   user: { id, firstName, lastName, age, imgSrc, isMale, isSelected },
